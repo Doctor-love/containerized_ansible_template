@@ -20,9 +20,9 @@ the container, which enables authentication against target hosts.
 
 ## Usage
 Populate "requirements.txt" and "galaxy_dependencies.yml" with any dependencies your Ansible
-roles/playbooks may need. Fill "inventory.yml" with hosts and "site.yml" with a playbook. If you so
-desire, add additional Makefile targets in "pre_deploy.mk" and "post_deploy.mk" to hook trigger
-local actions before/after the playbook has been executed.  
+roles/playbooks may need. Fill "site.yml" with a playbook and populate "inventory" directory. If
+you so desire, add additional Makefile targets in "pre_deploy.mk" and "post_deploy.mk" to hook
+trigger local actions before/after the playbook has been executed.  
   
 Take a peek inside "Makefile" to see what the targets do. Execute "make" and observe the glory!
 
