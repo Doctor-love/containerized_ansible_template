@@ -1,6 +1,6 @@
-# SPDX-FileCopyrightText: 2022 Joel Rangsmo <joel@rangsmo.se>
+# SPDX-FileCopyrightText: 2024 Joel Rangsmo <joel@rangsmo.se>
 # SPDX-License-Identifier: CC0-1.0
-FROM python:3.9.15
+FROM python:3.12.3
 
 ARG SHELL_PREFIX=ansible_cm
 RUN echo PS1=\"${SHELL_PREFIX} \\w: \" >> /etc/bash.bashrc
